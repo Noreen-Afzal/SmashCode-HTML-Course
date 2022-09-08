@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Html Forms</h1>
+    <form action="./success.html">
+        <fieldset>
+            <legend>Input Field</legend>
+            <label for="fname">Name:</label>
+            <input id="fname" size="29px" readonly value="Noreen" maxlength="10" type="text"/>
+            <br>
+            <label for="male">Male</label>
+            <input name="gender" id="male" type="radio"/>
+            <label for="female">Female</label>
+            <input name="gender" checked id="female" type="radio"/>
+            <br>
+            <input type="button" value="Push Me">
+            <br>
+            <input type="checkbox"/>
+            <br>
+            <input type="color">
+            <br>
+            <input type="date">
+            <br>
+            <input type="datetime-local">
+            <br>
+            <input type="email" placeholder="email" required>
+            <br>
+            <input type="file">
+            <br>
+            <input type="month">
+            <br>
+            <input type="week">
+            <br>
+            <input type="number" disabled>
+            <br>
+            <input type="hidden">
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+            <input type="range">
+            <br>
+            <input type="search" placeholder="search">
+            <br>
+            <input type="time">
+            <br>
+            <input type="url" placeholder="url">
+        </fieldset>
+       
+        <br>
+        <select multiple size="2">
+            <option>Choose best answer</option>
+            <option selected>Water</option>
+            <option>Milk</option>
+            <option selected>juice</option>
+        </select><br>
+        <textarea placeholder="your postal address" cols="30" rows="10"></textarea>
+        <br>
+        <button>Click me</button>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
